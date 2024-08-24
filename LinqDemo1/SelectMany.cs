@@ -36,11 +36,20 @@ namespace LinqDemo1
             };
 
 
-            var listofLang = employee1s.SelectMany(l => l.Pragramming).ToList();
-            foreach(var curElm in listofLang)
+            var listofLangMethod = employee1s.SelectMany(l => l.Pragramming).ToList();                     // OR
+
+            var listofLangQuery = (from l in employee1s
+                                   from lang in l.Pragramming
+                                   select lang).ToList();
+
+            foreach(var curElm in listofLangMethod)
             {
                 Console.WriteLine(curElm); 
             }
+
+
+            Console.WriteLine("------------------------------------------------------------------------------------------------");
+
 
         }
     }

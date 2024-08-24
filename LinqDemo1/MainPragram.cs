@@ -26,8 +26,11 @@
 
 
             //SelectMany Method
-            SelectMany selectMany = new SelectMany();
-            selectMany.SelectManyMethod();
+            /*SelectMany selectMany = new SelectMany();
+            selectMany.SelectManyMethod();*/
+
+            SelectMany2 selectMany2 = new SelectMany2();
+            selectMany2.SelectManyMethod();
 
 
 
