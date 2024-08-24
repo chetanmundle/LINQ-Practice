@@ -48,11 +48,14 @@
     <Compile Include="Employee2.cs" />
     <Compile Include="Objectives.cs" />
     <Compile Include="MainPragram.cs" />
+    <Compile Include="OfType.cs" />
+    <Compile Include="OrderBy.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SelectMany.cs" />
     <Compile Include="SelectMany2.cs" />
     <Compile Include="Student.cs" />
     <Compile Include="Syntax01.cs" />
+    <Compile Include="WhereOperator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

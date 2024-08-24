@@ -29,8 +29,27 @@
             /*SelectMany selectMany = new SelectMany();
             selectMany.SelectManyMethod();*/
 
-            SelectMany2 selectMany2 = new SelectMany2();
-            selectMany2.SelectManyMethod();
+            /*SelectMany2 selectMany2 = new SelectMany2();
+            selectMany2.SelectManyMethod();*/
+
+
+
+            //Where Operator //Condition
+            /* WhereOperator wo = new WhereOperator();
+             wo.WhereOperatorMethod();*/
+
+
+
+            //Of Type Method
+            /*OfType ot = new OfType();
+            ot.OfTypeMethod();*/
+
+
+
+
+            //Order By
+            OrderBy ob = new OrderBy();
+            ob.OrderByMethod();
 
 
 
